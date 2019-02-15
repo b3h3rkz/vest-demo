@@ -1,0 +1,39 @@
+/*
+[ 5. Preloader ]
+================ */
+.loader{
+  background-color: $white;
+  z-index: 99999;
+  .circle{
+    position: absolute;
+    border-radius: 50%;
+    opacity: .0;
+    height: 2rem;
+    width: 2rem;
+    &.one{
+      background-color: $dark;
+      animation: loading 1.3s .65s infinite;
+    }
+    &.two{
+      background-color: $primary;
+      animation: loading 1.3s infinite;
+    }
+  }
+}
+@keyframes loading {
+  0% {
+    opacity: .0;
+    @include scale(.15);
+    @include box-shadow ($btn-box-shadow);
+  }
+  50% {
+    opacity: 1;
+    @include scale(2);
+    @include box-shadow ($btn-box-shadow);
+  }
+  100% {
+    opacity: .0;
+    @include scale(.15);
+    @include box-shadow ($btn-box-shadow);
+  }
+}

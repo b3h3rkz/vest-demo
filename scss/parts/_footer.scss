@@ -1,0 +1,34 @@
+/* Footer Part*/
+footer{
+  .footer-widget-area{
+    .footer-widget{
+      &.about{
+        p{
+          max-width: 39rem;
+        }
+      }
+      .footer-logo{
+        max-width: 8rem;
+      }
+      .widget-title{
+        font-weight: 600;
+      }
+      .widget-content{
+        .list-unstyled{
+          &:first-child{
+            width: 14rem;
+          }
+          margin-bottom: -.5rem;
+          li{
+            margin-bottom: .5rem;
+          }
+        }
+      }
+    }
+  }
+  .footer-copyright{
+    p{
+      font-size: 1.3rem;
+    }
+  }
+}

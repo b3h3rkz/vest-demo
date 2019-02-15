@@ -1,0 +1,160 @@
+
+// Extra Vaariables
+$bodyFF: 'Open Sans', sans-serif;
+$ttu: uppercase;
+$letter-spacing: 1px;
+$h1-line-height: 4.5rem;
+$sectionPadding: 12rem;
+$z-index-200: 200;
+$boderColor: #f0f0f0;
+$gray: #fbfbfb;
+$table-cell-padding-md: 1rem 0 1rem 2.5rem;
+
+// Bootstrap Custom Variables
+// ===========================
+$font-size-base: 1.4rem;
+$enable-rounded: false;
+$transfromScale : 1.2;
+$transition-3s: all 0.3s ease-in-out;
+$transition-4s: all 0.4s ease-in-out;
+
+// Custom Contaier width
+$container-max-widths: (
+  xs: 320px,
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1170px
+);
+
+// Body Variables
+$body-color: #1c223a;
+$white: #ffffff;
+// Theme color
+$primary: #02ad88;
+$secondary: #1fb398;
+$success: #e0f2f3;
+$warning: #fec96b;
+$dark: #262e45;
+$light: #f9faff;
+$blue: #478fff;
+
+// Navs
+$nav-tabs-border-width: 0;
+$nav-tabs-link-active-bg: transparent;
+
+// Navbar
+$navbar-padding-y: 3.4rem;
+$navbar-light-color: $body-color;
+$navbar-light-hover-color: $primary;
+$navbar-light-active-color: $navbar-light-hover-color;
+$navbar-nav-link-padding-x: 1.6rem;
+$navbar-dark-color: $white;
+$navbar-dark-hover-color: $primary;
+$navbar-dark-active-color: $navbar-dark-hover-color;
+// $navbar-light-toggler-icon-bg: $primary;
+// Dropdown Menu
+$dropdown-min-width: 20rem;
+$dropdown-padding-y: 1.5rem;
+$dropdown-spacer: 2.4rem;
+$dropdown-border-width: 0;
+$dropdown-link-hover-color: $navbar-light-hover-color;
+$dropdown-link-hover-bg: transparent;
+$dropdown-item-padding-y: 0.3rem;
+$dropdown-item-padding-x: 2rem;
+
+// $line-height-base: 1.5;
+
+
+// Heading Variables
+$headings-font-family: 'Dosis', sans-serif;
+$headings-color: $body-color;
+$headings-margin-bottom: 1.5rem;
+$headings-font-weight: 600;
+$h1-font-size: 4rem;
+$h2-font-size: 3rem;
+$h3-font-size: 2.4rem;
+$h4-font-size: 1.8rem;
+$h5-font-size: 1.6rem;
+$h6-font-size: 1.2rem;
+
+// Paragraph Variables
+
+
+// Display Variables
+$display1-size: 4.4rem;
+$display3-size: 2.6rem;
+$display1-weight: 600;
+$display3-weight: 500;
+
+
+// Buttons Variables
+$enable-shadows: true;
+$btn-border-width: 0;
+$btn-box-shadow: 0px 10px 30px 0px rgba(2, 173, 136, 0.4);
+$btn-line-height: 4.1rem;
+$input-btn-padding-y: 0;
+$input-btn-padding-x: 3.5rem;
+$input-btn-focus-width: 0;
+$input-btn-focus-box-shadow: none;
+
+// Button sm
+$btn-border-width: 0.2rem;
+$btn-line-height-sm: 3.6rem;
+$input-btn-padding-y-sm: 0;
+$input-btn-padding-x-sm: 2.7rem;
+
+// Links Variables
+$link-hover-decoration: none;
+$link-color: $body-color;
+
+// Pagination
+
+$pagination-padding-y:              0;
+$pagination-padding-x:              0;
+$pagination-line-height:            2.6;
+
+$pagination-color:                  #4a4a4a;
+// $pagination-bg:                  $white !default;
+$pagination-border-width:           0;
+$pagination-border-color:           $boderColor;
+
+$pagination-hover-color:            $white;
+$pagination-hover-bg:               $primary;
+$pagination-hover-border-color:     $pagination-hover-color;
+
+$pagination-active-color:           $white;
+$pagination-active-bg:              $pagination-hover-bg;
+$pagination-active-border-color:    $pagination-hover-border-color;
+
+// $pagination-disabled-color:         $gray-600 !default;
+// $pagination-disabled-bg:            $white !default;
+$pagination-disabled-border-color:  $boderColor;
+
+// Card
+$card-border-radius: none;
+$card-border-color: $boderColor;
+// Transtions
+
+// $transition-fade:             opacity .15s linear;
+// $transition-collapse:         height .35s ease;
+
+// Form Control
+$input-border-color: #f6f6f6;
+$input-padding-x: 2rem;
+$input-padding-y: 0;
+$input-line-height: 5.5rem;
+$input-color: #66676a;
+
+// Tables
+$table-cell-padding: 1.1rem 0 1.1rem 6rem;
+
+$table-accent-bg: $light;
+$table-hover-bg: rgba($primary, .10);
+$table-active-bg: rgba($primary, .10);
+
+$table-border-width: 0;
+$table-border-color: #f1f2f9;
+
+$table-head-bg: $white;
+$table-head-color: $body-color;

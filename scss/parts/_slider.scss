@@ -1,0 +1,22 @@
+/* Slider Part */
+.slider-area{
+  .caption{
+    @include media-breakpoint-down(md){
+      padding: 8rem 0 3rem 0;
+    }
+    p{
+      max-width: 45.5rem;
+      line-height: 3.4rem;
+      font-size: 1.7rem;
+    }
+    .item-link{
+      font-weight: 600;
+      @include media-breakpoint-down(md){
+        &.ml-25{
+          margin-left: .8rem;
+          font-size: 1.3rem;
+        }
+      }
+    }
+  }
+}

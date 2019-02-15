@@ -1,0 +1,37 @@
+/* Hero Block Part */
+.hero-block{
+  .hero-thumb{
+    @media (min-width: 1281px){
+      &.m-minus-70{
+        margin-left: -7rem;
+        margin-right: -1.5rem;
+      }
+      &.m-minus-60{
+        margin-right: -6rem;
+      }
+    }
+    @media (min-width: 1200px) and (max-width: 1280px){
+      &.m-minus-70{
+        margin-right: -5rem;
+      }
+    }
+  }
+  .hero-text{
+    h3{
+      font-weight: 500;
+    }
+    p{
+      line-height: 3.4rem;
+      font-size: 1.7rem;
+      @media (min-width: 1281px){
+        max-width: 50rem;
+      }
+    }
+    .list-unstyled{
+      li{
+        font-size: 1.6rem;
+        line-height: 3.4rem;
+      }
+    }
+  }
+}

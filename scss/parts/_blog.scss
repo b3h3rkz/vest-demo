@@ -1,0 +1,202 @@
+/* Blog Post Section */
+.blog-page{
+  &.bg-light{
+    background-color: #f3f5fc!important;
+  }
+  .card{
+    border-width: 0;
+    @include media-breakpoint-up(xl){
+      margin-right: 3.4rem;
+    }
+    .card-body{
+      padding: 5.4rem 3.5rem 6rem 6rem;
+      @include media-breakpoint-only(lg){
+        padding: 3.4rem 2.5rem 4rem 4rem;
+      }
+      @include media-breakpoint-down(md){
+        padding: 2rem 2rem 3rem;
+      }
+      p{
+        font-size: 1.6rem;
+        line-height: 3.4rem;
+      }
+    }
+  }
+}
+/* Blog Details */
+.blog-details{
+  .card{
+    .card-body{
+      padding: 6rem;
+      @include media-breakpoint-down(lg){
+        padding: 3rem;
+      }
+      p{
+        text-align: justify;
+      }
+      h4{
+        font-weight: 600;
+      }
+      .quote-card{
+        padding: 5rem 3rem 5rem 5rem;
+        p{
+          margin-bottom: 0;
+          text-align: inherit;
+          font-size: 1.8rem;
+          font-style: italic;
+        }
+      }
+      .list-group{
+        padding-left: 1.5rem;
+        li{
+          line-height: 3.4rem;
+          font-size: 1.6rem;
+        }
+      }
+    }
+  }
+  .next-prev-post{
+    @include media-breakpoint-up(xl){
+      margin-right: 3.4rem;
+    }
+    padding: 3rem 6rem;
+    @include media-breakpoint-down(md){
+      padding: 3rem;
+    }
+    p{
+      font-size: 1.6rem;
+      margin-bottom: 0;
+    }
+    a{
+      font-size: 1.5rem;
+      color: #969696;
+      &:hover{
+        color: $primary;
+      }
+    }
+  }
+  .comments-area{
+      @include media-breakpoint-up(xl){
+        margin-right: 3.4rem;
+      }
+      .comment-boxs{
+        .media{
+          padding: 4rem 6rem;
+          @include media-breakpoint-down(md){
+            padding: 3rem;
+          }
+          &.admin-box{
+            span{
+              font-size: 1.4rem;
+              padding-left: 1rem;
+            }
+          }
+          .thumb{
+            width: 10rem;
+            @include media-breakpoint-down(lg){
+              margin-bottom: 1.5rem;
+            }
+          }
+          .media-body{
+            p{
+              font-size: 1.5rem;
+            }
+            .item-link{
+              padding-bottom: 3px;
+              border-bottom: 1px solid $body-color;
+              &:hover{
+                border-color: $primary;
+              }
+            }
+            .media{
+              border: 1px solid $boderColor;
+              margin-top: 2rem;
+              padding: 3rem 2rem;
+            }
+          }
+          @include media-breakpoint-down(md){
+            display: block;
+            .media-body{
+              padding-left: 0;
+            }
+          }
+        }
+      }
+      .comment-form{
+        padding: 4rem 6rem;
+        @include media-breakpoint-down(md){
+          padding: 3rem;
+        }
+        .form-control{
+          color: $body-color;
+          line-height: 4.5rem;
+          margin-bottom: 3rem;
+          border-color: #c2c2c2;
+          &:focus,:active{
+            border-color: $primary;
+          }
+        }
+      }
+  }
+}
+/* Sidebar */
+.sidebar{
+  .widget{
+    padding: 3rem;
+    .widget-title{
+      h4{
+        font-weight: 600;
+      }
+    }
+    p{
+      line-height: 3rem;
+      font-size: 1.4rem;
+      margin-bottom: 0;
+    }
+    &.search-box{
+      padding: 0;
+      .form-control{
+        line-height: 5rem;
+        @include box-shadow(none);
+      }
+      .input-group-text{
+        font-size: 1.4rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        border-color: transparent;
+        background-color: $white;
+      }
+    }
+    &.recent-post{
+      ul{
+        li{
+          line-height: 2.6rem;
+          margin-bottom: 1.5rem;
+          padding-bottom: 1rem;
+          border-bottom: 1px solid $boderColor;
+          font-size: 1.5rem;
+          a{
+            display: block;
+          }
+        }
+      }
+    }
+    &.categories{
+      ul{
+        li{
+          line-height: 3.4rem;
+          a{
+            font-size: 1.5rem;
+          }
+        }
+      }
+    }
+    &.tags{
+      .tag-link{
+        a{
+          padding-right: 1.5rem;
+        }
+      }
+    }
+  }
+}

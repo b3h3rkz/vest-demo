@@ -1,0 +1,45 @@
+/* Featured Sections */
+.featured-item{
+  @include transition($transition-4s);
+  border-radius: 1rem;
+  &.shadow-default,
+  &:hover{
+    @include box-shadow( 0px 15px 50px 0px rgba(115, 115, 115, 0.1));
+    border-color: transparent;
+  }
+  .card-body{
+    @include media-breakpoint-up(xl){
+      padding-left: 2.5rem;
+      padding-right: 2.5rem;
+    }
+    &:hover{
+      .circle-icon{
+        background-color: rgba($primary, 1);
+        i{
+          color: $white;
+        }
+      }
+    }
+    p{
+      color: #757575;
+    }
+  }
+  &.shadow-default{
+    &:hover{
+      background-color: $primary;
+      .card-body{
+        .circle-icon{
+          background-color: rgba($white, .20);
+        }
+        h5,p,.item-link{
+          color: $white;
+        }
+        .link-btn{
+          &:before{
+            background-color: rgba($white, .20);
+          }
+        }
+      }
+    }
+  }
+}

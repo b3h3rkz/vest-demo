@@ -1,0 +1,15 @@
+/* FAQ Sections */
+.faq-box{
+  padding: 5rem;
+  @include media-breakpoint-down(md){
+    padding: 3rem;
+  }
+  h4{
+    font-family: $bodyFF;
+    font-weight: 600;
+  }
+  p{
+    line-height: 3rem;
+    font-size: 1.6rem;
+  }
+}

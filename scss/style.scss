@@ -1,0 +1,43 @@
+
+/*
+ _____      				              	 _ _ _ __
+|  __ \  				              	 __	|_ _ _ __|
+| |__) | 					              | |	   | |	  __
+|  ___/    ___    __ _    __ _  | |    | |	 | |__     ___ 	 _ __  _ __    ___
+| |\ \    / _ \  / _` |  / _` | | |    | |	 | '_ \   / _ \ | '_ \| '_ \  / _ \
+| | \ \  |  __/ | (_| | | (_| | | |    | |	 | | | | |  __/ | |  ||  | | |  __/
+|_|  \ \  \___|  \__, |  \__,_| |_|    |_|   |_| |_|  \___| |_|  ||  |_|  \___|
+                  __/ |
+                 |___/
+================================================================================ */
+/*==========================================================
+    Template Name: RNR - Sass & Software Landing Page
+    Created By: RegalTheme
+    Envato Profile: https://themeforest.net/user/regaltheme
+    Website: http://regaltheme.com
+    Description: RNR is Fully Responsive Sass & Software HTML Landing Page Template with awesome features.
+    Version: v1.0
+    Support: http://regaltheme.com/support
+============================================================*/
+
+/*===========================================================
+    CSS INDEX
+    ===================
+
+	[ 1. General Code ]
+	[ 2. Typography ]
+	[ 3. Global Classes ]
+	[ 4. Template Parts ]
+	[ 5. Preloader ]
+	[ 6. Scroll UP ]
+==============================================================*/
+
+// Required
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/mixins";
+
+// Custom Style
+@import "variables";
+@import "global";
+@import "parts";

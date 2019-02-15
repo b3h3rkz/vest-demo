@@ -1,0 +1,13 @@
+/* Fun facts Part */
+.fun-facts{
+  .single-fact{
+    &:hover{
+    .circle-icon{
+        background-color: rgba($primary, 1);
+        i{
+          color: $white;
+        }
+      }
+    }
+  }
+}

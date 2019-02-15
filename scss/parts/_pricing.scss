@@ -1,0 +1,72 @@
+/* Pricing Plan Section */
+.pricing-table {
+  @include box-shadow(0px 15px 50px 0px rgba(115, 115, 115, 0.06));
+  table{
+    thead{
+      tr{
+        th{
+          border-left-width: 1px;
+          font-size: 1.8rem;
+          font-weight: 500;
+          font-family: $headings-font-family;
+          vertical-align: middle;
+          padding-top: 5rem;
+          padding-bottom: 2.6rem;
+          strong{
+            display: block;
+            margin-top: .5rem;
+            sup{
+              top: -3px;
+              font-size: 14px;
+              left: -2px;
+            }
+            b{
+              font-weight: 600;
+            }
+            span{
+              font-weight: 500;
+              font-size: 12px;
+            }
+          }
+        }
+      }
+    }
+    tbody{
+      tr{
+        @include transition($transition-3s);
+        font-size: 1.5rem;
+        th{
+          font-weight: 400;
+        }
+        td{
+          border-left-width: 1px;
+        }
+      }
+    }
+    tfoot{
+      tr{
+        th{
+
+        }
+        td{
+          border-left-width: 1px !important;
+          padding-top: 4rem;
+          padding-bottom: 6rem;
+        }
+      }
+    }
+    th,td{
+      @include media-breakpoint-down(md){
+        padding: $table-cell-padding-md;
+      }
+    }
+  }
+}
+.pricing-plan{
+  .list-unstyled{
+    li{
+      font-size: 1.5rem;
+      line-height: 3.4rem;
+    }
+  }
+}

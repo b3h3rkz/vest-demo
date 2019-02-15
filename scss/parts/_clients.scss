@@ -1,0 +1,105 @@
+/* Client Testimonial Part*/
+.client-testimonial{
+  .drop-shadow{
+    @include filter(drop-shadow(0px 15px 50px rgba(2, 173, 136, 0.20)));
+  }
+  .client-nav{
+    .nav-item{
+      position: absolute;
+      z-index: 5;
+      width: 10.5rem;
+      &:nth-child(1){
+        top: 2.5rem;
+        right: 16%;
+        width: 7rem;
+      }
+      &:nth-child(2){
+        bottom: 3rem;
+        right: 0;
+        @media (min-width: 1281px){
+          right: -3rem;
+        }
+      }
+      &:nth-child(3){
+        bottom: 9rem;
+        left: 4%;
+      }
+      &:nth-child(4){
+        top: -2rem;
+        left: 0;
+        width: 7rem;
+        @media (min-width: 1281px){
+          left: -8rem;
+        }
+      }
+      &:nth-child(5){
+        top: -9rem;
+        right: 0;
+        width: 7rem;
+        @media (min-width: 1281px){
+          right: -5.5rem;
+        }
+      }
+      @include media-breakpoint-down(sm){
+        position: relative !important;
+        top: 0 !important;
+        left: 0!important;
+        right: inherit;
+        width: 7rem!important;
+      }
+    }
+  }
+  .tab-content{
+    .fade{
+      @include transition(all .4s ease-in);
+    }
+    .client-thumb{
+      width: 10.5rem;
+    }
+    .client-desc{
+      @include box-shadow(0px 15px 50px 0px rgba(115, 115, 115, 0.06));
+      min-height: 21rem;
+      padding: 2rem;
+      h6{
+        font-size: 1.3rem;
+      }
+    }
+  }
+}
+/* Client Logo */
+.client-logo{
+  .row{
+    &.justify-content-around{
+      @include media-breakpoint-up(lg) {
+        margin-right: -12rem;
+      }
+      @include media-breakpoint-only(lg) {
+        margin-right: -8rem;
+      }
+    }
+  }
+  @include media-breakpoint-down(md) {
+    .row{
+      &.justify-content-around{
+        text-align: center;
+      }
+    }
+  }
+  .col-2{
+    @include media-breakpoint-only(md){
+      padding: 0 .5rem;
+    }
+    @include media-breakpoint-down(sm){
+      min-width: 50% !important;
+      padding: 1.5rem 0;
+    }
+  }
+  a{
+    img{
+      transition: $transition-3s;
+      &:hover{
+        opacity: .2;
+      }
+    }
+  }
+}

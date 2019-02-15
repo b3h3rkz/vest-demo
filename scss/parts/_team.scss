@@ -1,0 +1,31 @@
+/* Team Member Part */
+.team-members{
+  margin-bottom: -5rem;
+  .media{
+    margin-bottom: 5rem;
+    .thumb{
+      max-width: 8.5rem;
+      z-index: 2;
+      top: 3rem;
+      @include transition($transition-3s);
+    }
+    &:hover{
+      .thumb{
+        @include scale(1.1);
+      }
+    }
+    .media-body{
+      @include box-shadow(0px 20px 50px 0px rgba(115, 115, 115, 0.1));
+      margin-left: -4.2rem;
+      padding: 5rem 3.5rem 4.5rem 6.5rem;
+      p{
+        font-size: 1.6rem;
+        line-height: 3.2rem;
+      }
+      .social-icon{
+        margin-left: -1.2rem;
+        padding-top: .5rem;
+      }
+    }
+  }
+}
