@@ -3,3 +3,16 @@
 }
 
 /*# sourceMappingURL=custom.css.map */
+
+
+.section-ptb, .section-pt, .section-pb {
+  padding-top: 4rem !important;
+  padding-bottom: 4rem !important; }
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    .section-ptb, .section-pt, .section-pb {
+      padding-top: 4rem !important;
+      padding-bottom: 4rem !important; } }
+  @media (max-width: 767.98px) {
+    .section-ptb, .section-pt, .section-pb {
+      padding-top: 4rem !important;
+      padding-bottom: 4rem !important; } }
