@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="842px" height="903px" viewBox="0 0 842 903" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>371816F9-FF12-4B7E-9996-07211F6B2C97</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <filter x="-9.4%" y="-21.7%" width="118.8%" height="143.4%" filterUnits="objectBoundingBox" id="filter-1">
+            <feGaussianBlur stdDeviation="50" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" fill-opacity="0.335116621">
+        <g id="Landing-" transform="translate(-598.000000, -48.000000)" fill="#000000" fill-rule="nonzero">
+            <g id="Group-7" transform="translate(658.000000, 48.000000)">
+                <path d="M222.778274,108.311084 L1480.9714,196.362402 C1522.98696,199.30275 1558.30387,229.020849 1568.3819,269.915672 L1664.84803,661.357655 C1678.06305,714.981789 1645.30499,769.165627 1591.68086,782.380645 C1584.19329,784.225864 1576.51741,785.198786 1568.80626,785.280013 L171.490901,799.998951 C117.922252,800.563229 74.0388443,757.594696 73.4745668,704.026047 C73.439912,700.736153 73.572661,697.446626 73.8722991,694.170223 L119.409661,196.240313 C124.215175,143.694246 170.141662,104.627449 222.778274,108.311084 Z" id="Mask" filter="url(#filter-1)" transform="translate(870.622766, 454.037541) scale(-1, 1) rotate(-8.000000) translate(-870.622766, -454.037541) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

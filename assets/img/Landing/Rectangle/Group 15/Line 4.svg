@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1128px" height="3px" viewBox="0 0 1128 3" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>7F1564F7-90FD-4423-B64D-BA49BB87A8C6</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="100%" y2="0%" id="linearGradient-1">
+            <stop stop-color="#C8C8C8" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#1E3444" stop-opacity="0.280202672" offset="51.7862553%"></stop>
+            <stop stop-color="#979797" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.946056548" stroke-linecap="round">
+        <g id="Landing-" transform="translate(-151.000000, -4895.000000)" fill-rule="nonzero" stroke="url(#linearGradient-1)" stroke-width="2">
+            <g id="Rectangle" transform="translate(151.000000, 4332.000000)">
+                <g id="Group-15" transform="translate(0.000000, 118.000000)">
+                    <path d="M1,446.5 L1127,446.5" id="Line-4"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
