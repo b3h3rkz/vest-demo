@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="769px" height="701px" viewBox="0 0 769 701" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>942D7F5A-3631-45C1-91FF-A8FBD90617F9</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M133.221386,1.47022125 L1391.61767,0.428086816 C1435.84377,0.391461198 1474.49511,30.2745912 1485.59388,73.0854155 L1611.75431,559.718959 C1625.61417,613.180054 1593.51103,667.754473 1540.04993,681.614337 C1529.14073,684.442563 1517.83193,685.406358 1506.60147,684.464991 L89.2786385,565.661337 C35.8942348,561.186518 -3.7548179,514.282351 0.72000049,460.897948 C0.75515141,460.478599 0.793030881,460.059483 0.833636496,459.640627 L36.7543387,89.1104915 C41.5707751,39.4278644 83.3058595,1.51155854 133.221386,1.47022125 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Landing-" transform="translate(-671.000000, -99.000000)">
+            <g id="Group-7" transform="translate(658.000000, 48.000000)">
+                <g id="adult-beautiful-blur-932397" transform="translate(847.308253, 472.549093) rotate(8.000000) translate(-847.308253, -472.549093) translate(39.808253, 130.049093)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Mask" fill="#FFFFFF" fill-rule="nonzero" transform="translate(807.677143, 342.621259) scale(-1, 1) translate(-807.677143, -342.621259) " xlink:href="#path-1"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

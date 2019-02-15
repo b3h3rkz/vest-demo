@@ -1275,7 +1275,9 @@ header {
   -webkit-transition: all 0.4s ease-in-out;
   -o-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
-  border-radius: 1rem; }
+  border-radius: 1rem; 
+  min-height: 410px;
+}
   .featured-item.shadow-default, .featured-item:hover {
     -webkit-box-shadow: 0px 15px 50px 0px rgba(115, 115, 115, 0.1);
     box-shadow: 0px 15px 50px 0px rgba(115, 115, 115, 0.1);
