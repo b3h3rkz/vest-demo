@@ -2,20 +2,50 @@
   height: 50px;
 }
 
-/*# sourceMappingURL=custom.css.map */
+#check-icon {
+  padding: 20px;
+  box-shadow: 0 0 13px 0 #50E3C2;
+  background-color: #ffffff;
+  border-radius: 50%;
+  margin: 20px;
+  padding: 10px;
+}
 
+#section-quote {
+  background-color: #50E3C2;
+  border-radius: 15px;
+  box-shadow: 0px 5px 0px #DBE7EC;
+  color: #1E3444;
+  max-height: 80px;
+  margin-bottom: 10px;
+  padding: 10px;
+  justify-content: center;
+  text-align: center;
+}
 
-.section-ptb, .section-pt, .section-pb {
-  padding-top: 4rem !important;
-  padding-bottom: 4rem !important; }
-  @media (min-width: 768px) and (max-width: 991.98px) {
-    .section-ptb, .section-pt, .section-pb {
-      padding-top: 4rem !important;
-      padding-bottom: 4rem !important; } }
-  @media (max-width: 767.98px) {
-    .section-ptb, .section-pt, .section-pb {
-      padding-top: 4rem !important;
-      padding-bottom: 4rem !important; } }
+#section-quote-right {
+  background-color: #DBE7EC;
+  border-radius: 15px;
+}
+
+#section-quote-right-text {
+  padding-top: 10px;
+}
+
+.how-safe-img {
+  max-width: 200px;
+  max-height: 200px;
+}
+
+/* testimonial section */
+#testimonial-section {
+  border-radius: 20px;
+  margin-top: 0px;
+  background-image: url("../img/testimonial-bg.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: Avenir;
+}
 
   .dark-bg {
         background-color: #1E3444;
