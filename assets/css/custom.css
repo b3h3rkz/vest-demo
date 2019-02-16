@@ -1,3 +1,15 @@
+/* avenir */
+@font-face {
+  font-family: Avenir;
+  src: url("../fonts/AvenirLTStd-Book.otf");
+}
+/* end avenir */
+/* nevis */
+@font-face {
+  font-family: nevis;
+  src: url("../fonts/nevis.ttf");
+}
+/* end nevis */
 .logo {
   height: 50px;
 }
@@ -47,13 +59,31 @@
   font-family: Avenir;
 }
 
-  .dark-bg {
-        background-color: #1E3444;
-        box-shadow: none;
-        color: #fff;
-      }
+.card {
+  margin: 0px;
+  background-color: transparent;
+}
+.card .carousel-item {
+  height: 500px;
+}
+.card .carousel-caption {
+  margin-top: 0px;
+  padding: 0;
+  right: 0;
+  left: 0;
+  color: #1E3444;
+}
+.card .carousel-caption h3 {
+  color: #1E3444;
+}
+.card .carousel-caption p {
+  line-height: 30px;
+}
+.card .carousel-control-next, .card .carousel-control-prev {
+  color: #1E3444 !important;
+  opacity: 1 !important;
+}
 
-  .text-white {
-    color: #fff;
+/* end testimonial section */
 
-  }
+/*# sourceMappingURL=custom.css.map */

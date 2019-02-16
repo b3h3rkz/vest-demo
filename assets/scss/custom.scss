@@ -4,6 +4,20 @@ $darkest-green: #1E3444;
 $white: #ffffff;
 $grey: rgb(189, 189, 189);
 
+/* avenir */
+@font-face {
+    font-family: Avenir;
+    src: url('../fonts/AvenirLTStd-Book.otf');
+  }
+/* end avenir */
+
+/* nevis */
+  @font-face {
+    font-family: nevis;
+    src: url('../fonts/nevis.ttf');
+  }
+/* end nevis */
+
 .logo {
     height: 50px;
 }
