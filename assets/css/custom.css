@@ -67,6 +67,21 @@
   opacity: 1 !important;
 }
 
+<<<<<<< HEAD
 /* end testimonial section */
 
 /*# sourceMappingURL=custom.css.map */
+=======
+.section-ptb, .section-pt, .section-pb {
+  padding-top: 4rem !important;
+  padding-bottom: 4rem !important; }
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    .section-ptb, .section-pt, .section-pb {
+      padding-top: 4rem !important;
+      padding-bottom: 4rem !important; } }
+  @media (max-width: 767.98px) {
+    .section-ptb, .section-pt, .section-pb {
+      padding-top: 4rem !important;
+      padding-bottom: 4rem !important; } }
+
+>>>>>>> 60c173e69f00d25712e92a4dae18894ec79b65b6

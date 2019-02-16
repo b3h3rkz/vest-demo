@@ -1,22 +1,7 @@
 /*
- _____      				              	 _ _ _ __
-|  __ \  				              	 __	|_ _ _ __|
-| |__) | 					              | |	   | |	  __
-|  ___/    ___    __ _    __ _  | |    | |	 | |__     ___ 	 _ __  _ __    ___
-| |\ \    / _ \  / _` |  / _` | | |    | |	 | '_ \   / _ \ | '_ \| '_ \  / _ \
-| | \ \  |  __/ | (_| | | (_| | | |    | |	 | | | | |  __/ | |  ||  | | |  __/
-|_|  \ \  \___|  \__, |  \__,_| |_|    |_|   |_| |_|  \___| |_|  ||  |_|  \___|
-                  __/ |
-                 |___/
+ _____      				              	 _ _ _ _
 ================================================================================ */
 /*==========================================================
-    Template Name: RNR - Sass & Software Landing Page
-    Created By: RegalTheme
-    Envato Profile: https://themeforest.net/user/regaltheme
-    Website: http://regaltheme.com
-    Description: RNR is Fully Responsive Sass & Software HTML Landing Page Template with awesome features.
-    Version: v1.0
-    Support: http://regaltheme.com/support
 ============================================================*/
 /*===========================================================
     CSS INDEX
@@ -33,7 +18,7 @@
 [ 1. General Code ]
 ================ */
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Avenir", sans-serif !important;
   font-weight: 400;
   line-height: 2.8rem;
   font-size: 1.4rem;
@@ -44,7 +29,7 @@ body {
   -webkit-font-smoothing: antialiased; }
 
 html {
-  font-family: "Open Sans", sans-serif; }
+  font-family: "Avenir", sans-serif; }
 
 html,
 body {
@@ -1291,7 +1276,7 @@ header {
     .featured-item .card-body:hover .circle-icon i {
       color: #ffffff; }
   .featured-item .card-body p {
-    color: #757575; }
+    color: #1c223a; }
   .featured-item.shadow-default:hover {
     background-color: #02ad88; }
     .featured-item.shadow-default:hover .card-body .circle-icon {
