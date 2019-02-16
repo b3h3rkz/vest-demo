@@ -17,3 +17,13 @@
       padding-top: 4rem !important;
       padding-bottom: 4rem !important; } }
 
+  .dark-bg {
+        background-color: #1E3444;
+        box-shadow: none;
+        color: #fff;
+      }
+
+  .text-white {
+    color: #fff;
+
+  }
