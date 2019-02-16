@@ -1,3 +1,41 @@
+$light-green: #50E3C2;
+$lightest-blue: #DBE7EC;
+$darkest-green: #1E3444;
+$white: #ffffff;
+$grey: rgb(189, 189, 189);
+
 .logo {
     height: 50px;
 }
+
+#check-icon {
+    padding: 20px;
+    box-shadow: 0 0 13px 0 $light-green;
+    background-color: $white;
+    border-radius: 50%;
+    margin: 20px;
+    padding: 10px;
+  }
+
+  #section-quote {
+    background-color: $light-green;
+    border-radius: 15px;
+    box-shadow: 0px 5px 0px $lightest-blue;
+    color: $darkest-green;
+    max-height: 80px;
+    margin-bottom: 10px;
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  #section-quote-right {
+    background-color: $lightest-blue;
+    border-radius: 15px;
+  }
+  
+  #section-quote-right-text {
+    padding-top: 10px;
+  }
+
+  @import 'testimonial';

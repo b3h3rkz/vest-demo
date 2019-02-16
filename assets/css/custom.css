@@ -2,17 +2,71 @@
   height: 50px;
 }
 
+#check-icon {
+  padding: 20px;
+  box-shadow: 0 0 13px 0 #50E3C2;
+  background-color: #ffffff;
+  border-radius: 50%;
+  margin: 20px;
+  padding: 10px;
+}
+
+#section-quote {
+  background-color: #50E3C2;
+  border-radius: 15px;
+  box-shadow: 0px 5px 0px #DBE7EC;
+  color: #1E3444;
+  max-height: 80px;
+  margin-bottom: 10px;
+  padding: 10px;
+  justify-content: center;
+  text-align: center;
+}
+
+#section-quote-right {
+  background-color: #DBE7EC;
+  border-radius: 15px;
+}
+
+#section-quote-right-text {
+  padding-top: 10px;
+}
+
+/* testimonial section */
+#testimonial-section {
+  border-radius: 20px;
+  margin-top: 0px;
+  background-image: url("../img/testimonial-bg.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: Avenir;
+}
+
+.card {
+  margin: 0px;
+  background-color: transparent;
+}
+.card .carousel-item {
+  height: 500px;
+}
+.card .carousel-caption {
+  margin-top: 0px;
+  padding: 0;
+  right: 0;
+  left: 0;
+  color: #1E3444;
+}
+.card .carousel-caption h3 {
+  color: #1E3444;
+}
+.card .carousel-caption p {
+  line-height: 30px;
+}
+.card .carousel-control-next, .card .carousel-control-prev {
+  color: #1E3444 !important;
+  opacity: 1 !important;
+}
+
+/* end testimonial section */
+
 /*# sourceMappingURL=custom.css.map */
-
-
-.section-ptb, .section-pt, .section-pb {
-  padding-top: 4rem !important;
-  padding-bottom: 4rem !important; }
-  @media (min-width: 768px) and (max-width: 991.98px) {
-    .section-ptb, .section-pt, .section-pb {
-      padding-top: 4rem !important;
-      padding-bottom: 4rem !important; } }
-  @media (max-width: 767.98px) {
-    .section-ptb, .section-pt, .section-pb {
-      padding-top: 4rem !important;
-      padding-bottom: 4rem !important; } }
