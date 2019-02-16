@@ -1102,14 +1102,14 @@ button.btn {
 
 /* Circle Icon */
 .circle-icon {
-  width: 5.3rem;
-  height: 5.3rem;
+  width: 8.3rem;
+  height: 8.3rem;
   border-radius: 50%;
   text-align: center;
   background-color: rgba(2, 173, 136, 0.2); }
   .circle-icon i {
-    font-size: 2.4rem;
-    line-height: 5.3rem;
+    font-size: 3.4rem;
+    line-height: 7.3rem;
     color: #02ad88; }
 
 /*
@@ -1647,7 +1647,7 @@ header {
 
 /* Footer Part*/
 footer .footer-widget-area .footer-widget.about p {
-  color:#fff;
+  /* color:#ffffff; */
   max-width: 39rem; }
 
 footer .footer-widget-area .footer-widget .footer-logo {
