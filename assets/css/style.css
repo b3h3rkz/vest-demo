@@ -1647,6 +1647,7 @@ header {
 
 /* Footer Part*/
 footer .footer-widget-area .footer-widget.about p {
+  color:#fff;
   max-width: 39rem; }
 
 footer .footer-widget-area .footer-widget .footer-logo {
