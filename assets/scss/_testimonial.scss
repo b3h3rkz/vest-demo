@@ -9,6 +9,21 @@ $grey: rgb(189, 189, 189);
 $header-font: nevis;
 $body-font: Avenir;
 
+.text-lightest {
+  color: $light-green;
+}
+
+.text-lighter {
+  color: $lightest-blue;
+}
+
+.bg-light {
+  background-color: $lightest-blue;
+}
+
+
+
+
 /* testimonial section */
 #testimonial-section {
   border-radius: 20px;

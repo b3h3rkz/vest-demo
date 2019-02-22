@@ -14,14 +14,6 @@
   height: 50px;
 }
 
-
-.footer li {
-  color: #fff;
-}
-
-.footer p {
-  color:#fff;
-}
 #check-icon {
   padding: 20px;
   box-shadow: 0 0 13px 0 #50E3C2;
@@ -57,6 +49,18 @@
   max-height: 200px;
 }
 
+.text-lightest {
+  color: #50E3C2;
+}
+
+.text-lighter {
+  color: #DBE7EC;
+}
+
+.bg-light {
+  background-color: #DBE7EC;
+}
+
 /* testimonial section */
 #testimonial-section {
   border-radius: 20px;
@@ -65,10 +69,6 @@
   background-repeat: no-repeat;
   background-position: center;
   font-family: Avenir;
-}
-
-.text-white{
-  color:#fff;
 }
 
 .card {
