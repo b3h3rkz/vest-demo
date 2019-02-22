@@ -32,6 +32,10 @@
   padding: 10px;
 }
 
+.payment-logo {
+  max-height: 50px;
+}
+
 #section-quote {
   background-color: #50E3C2;
   border-radius: 15px;
