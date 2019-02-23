@@ -36,6 +36,10 @@
   max-height: 50px;
 }
 
+.feature-card {
+  max-height: 150px;
+}
+
 #section-quote {
   background-color: #50E3C2;
   border-radius: 15px;
