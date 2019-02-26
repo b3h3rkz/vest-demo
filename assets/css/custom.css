@@ -10,6 +10,14 @@
   src: url("../fonts/nevis.ttf");
 }
 /* end nevis */
+h1 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 32px;
+}
+
 .text-header {
   font-family: nevis;
 }
@@ -21,6 +29,11 @@
 
 .logo {
   height: 50px;
+}
+
+.header-image {
+  height: 50vh;
+  width: 500%;
 }
 
 #check-icon {
@@ -59,6 +72,10 @@
 
 #section-quote-right-text {
   padding-top: 10px;
+}
+
+.dashboard-screenshot {
+  padding-top: 50px;
 }
 
 .how-safe-img {
