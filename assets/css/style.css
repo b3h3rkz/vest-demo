@@ -17,8 +17,23 @@
 /*
 [ 1. General Code ]
 ================ */
+
+/* avenir */
+@font-face {
+  font-family: Avenir;
+  src: url('../fonts/AvenirLTStd-Book.otf');
+}
+/* end avenir */
+
+/* nevis */
+@font-face {
+  font-family: nevis;
+  src: url('../fonts/nevis.ttf');
+}
+/* end nevis */
+
 body {
-  font-family: sans-serif !important;
+  font-family: Avenir !important;
   font-weight: 400;
   line-height: 2.3rem;
   font-size: 1.4rem;
@@ -30,7 +45,7 @@ body {
 }
 
 html {
-  font-family: sans-serif; 
+  font-family: Avenir; 
 }
 
 html,
@@ -1304,7 +1319,7 @@ header {
     border-left-width: 1px;
     font-size: 1.8rem;
     font-weight: 500;
-    font-family: "Dosis", sans-serif;
+    font-family: Avenir;
     vertical-align: middle;
     padding-top: 5rem;
     padding-bottom: 2.6rem; }
@@ -1348,7 +1363,7 @@ header {
     .faq-box {
       padding: 3rem; } }
   .faq-box h4 {
-    font-family: "Open Sans", sans-serif;
+    font-family: Avenir;
     font-weight: 600; }
   .faq-box p {
     line-height: 3rem;

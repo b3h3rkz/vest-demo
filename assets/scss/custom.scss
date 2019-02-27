@@ -61,7 +61,7 @@ h3 {
     max-height: 150px;
   }
  
-  #section-quote {
+  .section-quote {
     background-color: $light-green;
     border-radius: 15px;
     box-shadow: 0px 5px 0px $lightest-blue;
@@ -73,13 +73,18 @@ h3 {
     text-align: center;
   }
   
-  #section-quote-right {
+  .offer-card {
     background-color: $lightest-blue;
     border-radius: 15px;
   }
+
+  .offer-card-header {
+    padding: 10px;
+    padding-bottom: 0px;
+  }
   
-  #section-quote-right-text {
-    padding-top: 10px;
+  .offer-card-text {
+    padding-top: 0px;
   }
 
 .dashboard-screenshot {
