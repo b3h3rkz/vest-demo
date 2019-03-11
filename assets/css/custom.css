@@ -49,6 +49,19 @@ h3 {
   max-height: 50px;
 }
 
+#btn-dark {
+  color: #50E3C2;
+  background-color: #1E3444;
+  border: 2px solid #1E3444;
+  border-radius: 15px;
+  transition: background-color color 0.5 0.5 ease-in;
+}
+
+#btn-dark:hover {
+  background-color: transparent;
+  color: #1E3444;
+}
+
 .feature-card {
   max-height: 150px;
 }
@@ -77,6 +90,11 @@ h3 {
 
 .offer-card-text {
   padding-top: 0px;
+}
+
+.what-we-offer-cta {
+  text-align: right;
+  justify-content: right;
 }
 
 .dashboard-screenshot {
