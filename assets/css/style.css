@@ -41,7 +41,8 @@ body {
   overflow-x: hidden;
   -webkit-text-size-adjust: 100%;
   -webkit-overflow-scrolling: touch;
-  -webkit-font-smoothing: antialiased; 
+  -webkit-font-smoothing: antialiased;
+  position: relative;
 }
 
 html {
