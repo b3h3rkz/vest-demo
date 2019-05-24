@@ -212,8 +212,6 @@ button.btn.rounded {
 }
 
 .dash {
-  height: 90rem;
-  max-height: 90%;
 }
 
 .text-italics {
@@ -275,7 +273,8 @@ button.btn.rounded {
 }
 
 .bg-hero-pic {
-  background-image: url('../img/slider1.png');
+  background-image: url('../img/hero_img.png');
+  background-size: 30%;
   background-repeat: no-repeat;
   background-position: right bottom;
 }
@@ -327,10 +326,38 @@ button.btn.rounded {
     background-image: none;
   }
 
-  .bg-hero-pic {
-    background-image: url('../img/slider1.png');
+  .bg-hero-pic {../img/hero_img.png');
+    background-size: 30%;
     background-repeat: no-repeat;
     background-position: right bottom;
+  }
+
+  .section.arrow1 {
+    background-image: url('../img/arrow1.svg');
+    background-repeat: no-repeat;
+    background-position: -5rem;
+    background-size: contain;
+  }
+  
+  .ptb.arrow2 {
+    background-image: url('../img/arrow1.svg');
+    background-repeat: no-repeat;
+    background-position: 10rem;
+    background-size: contain;
+  }
+
+  .section.arrow1 {
+    background-image: url('../img/arrow1.svg');
+    background-repeat: no-repeat;
+    background-position: 5rem;
+    background-size: contain;
+  }
+  
+  .ptb.arrow2 {
+    background-image: url('../img/arrow1.svg');
+    background-repeat: no-repeat;
+    background-position: 60rem;
+    background-size: contain;
   }
 }
 
@@ -347,9 +374,24 @@ button.btn.rounded {
   }
 
   .bg-hero-pic {
-    background-image: url('../img/slider1.png');
+    background-image: url('../img/hero_img.png');
+    background-size: 30%;
     background-repeat: no-repeat;
     background-position: right bottom;
+  }
+
+  .section.arrow1 {
+    background-image: url('../img/arrow1.svg');
+    background-repeat: no-repeat;
+    background-position: 5rem;
+    background-size: contain;
+  }
+  
+  .ptb.arrow2 {
+    background-image: url('../img/arrow1.svg');
+    background-repeat: no-repeat;
+    background-position: 60rem;
+    background-size: contain;
   }
 }
 
@@ -366,17 +408,33 @@ button.btn.rounded {
   }
 
   .bg-hero-pic {
-    background-image: url('../img/slider1.png');
+    background-image: url('../img/hero_img.png');
+    background-size: 30%;
     background-repeat: no-repeat;
     background-position: right bottom;
+  }
+  .section.arrow1 {
+    background-image: url('../img/arrow1.svg');
+    background-repeat: no-repeat;
+    background-position: 5rem;
+    background-size: contain;
+  }
+  
+  .ptb.arrow2 {
+    background-image: url('../img/arrow1.svg');
+    background-repeat: no-repeat;
+    background-position: 60rem;
+    background-size: contain;
   }
 }
 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width: 1200px) {
   .bg-hero-pic {
-    background-image: url('../img/slider1.png');
+    background-image: url('../img/hero_img.png');
+    background-size: 30%;
     background-repeat: no-repeat;
     background-position: right bottom;
+
   }
 }
