@@ -10,6 +10,10 @@
   src: url('../fonts/nevis.ttf');
 }
 /* end nevis */
+
+* {
+  font-family: 'Poppins', sans-serif !important;
+}
 h1 {
   font-size: 40px;
 }
